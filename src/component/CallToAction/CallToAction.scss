@@ -1,0 +1,46 @@
+.actionWrapper {
+    height: 473px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: right;
+
+    @media (max-width:992px) {
+    height: 350px;
+    }
+    @media (max-width:768px) {
+    height: 400px;
+    }
+
+    .actionContent {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+  
+    }
+    .actionshape {
+        position: absolute;
+        top: 54%;
+        left: 33%;
+    }
+
+    .actionBtn {
+        width: 192px;
+        background-color: #96e7e5;
+        transition: 0.3s all linear;
+
+        svg {
+            margin-left: 0px;
+            transition: 0.3s all linear;
+        }
+
+        &:hover {
+            background-color: #fff;
+            color: #1e2875;
+            svg {
+                margin-left: 4px;
+            }
+        }
+    }
+}

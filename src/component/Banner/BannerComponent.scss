@@ -1,0 +1,28 @@
+
+.banner-section{
+    background-image: url(../../assets/img/banner.png);
+    // min-height: 1400px;
+    .banner-content{
+        .banerTitle{
+            font-size: 80px;
+            font-weight: 500;
+            line-height: 100px;
+
+            @media (max-width:900px) {
+                font-size: calc(1rem + 5vw);
+                line-height: 64px;
+            }
+        }
+    }
+}
+.banner-padding{
+    padding-top: 100px;
+    padding-bottom: 360px;
+}
+
+
+.bannerBrandWrapper{
+    .brandHintsHeading{
+        letter-spacing: 0.2em;
+    }
+}

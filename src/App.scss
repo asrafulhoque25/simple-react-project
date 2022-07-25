@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url(./assets/font/stylesheet.css);
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--clr-aliceblue2);
+    font-family: "URW Geometric";
+    overflow-x: hidden;
+}
+
+.font-avant {
+    font-family: "Vogue Avant Garde";
+}
+
+:root {
+    --clr-dark: #272830;
+    --clr-dark2: #1e2875;
+    --clr-blue: #1e2875;
+    --clr-skyBlue: #96e7e5;
+    --clr-lightDark: #5b5e6f;
+    --clr-lightSky: #e6fbfa;
+    --clr-gray: #9294a0;
+    --clr-orange: #ffa6a6;
+    --clr-primary-lite: #6576ff;
+    --clr-light-green:#F2F6FA
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1470px;
+    }
+}
+@media (min-width: 1200px) {
+    .container2 {
+        max-width: 1130px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
+}
+  .container2 {
+        max-width: 1130px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+.section-padding {
+    padding: 100px 0;
+
+    @media (max-width:768px) {
+        padding: 60px 0;
+    }
+}
+
+.text-clr-dark {
+    color: var(--clr-dark);
+}
+.text-clr-blue {
+    color: var(--clr-blue);
+}
+.text-clr-dark2 {
+    color: var(--clr-dark2);
+}
+.text-clr-lightDark {
+    color: var(--clr-lightDark);
+}
+.text-clr-lightSky {
+    color: var(--clr-lightSky);
+}
+.text-clr-gray {
+    color: var(--clr-gray);
+}
+
+.bg-blue {
+    background-color: var(--clr-blue);
+}
+.bg-skyBlue {
+    background-color: var(--clr-skyBlue);
+}
+.bg-sky {
+    background-color: var(--clr-lightSky);
+}
+.bg-blue {
+    background-color: var(--clr-blue);
+}
+.bg-orange {
+    background-color: var(--clr-orange);
+}
+.bg-primary-lite {
+    background-color: var(--clr-primary-lite);
+}
+.bg-light-green {
+    background-color: var(--clr-light-green);
+}
+.fs-24 {
+    font-size: 24px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-52 {
+    font-size: 52px;
+
+    @media (max-width:991px) {
+        font-size: 40px;
+    }
+    @media (max-width:500px) {
+        font-size: 30px;
+    }
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-36 {
+    font-size: 36px;
+       @media (max-width:991px) {
+        font-size: 26px;
+    }
+       @media (max-width:500px) {
+        font-size: 22px;
+    }
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fw-600 {
+    font-weight: 600;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.font-recoleta {
+    font-family: "Recoleta";
+}
+.font-geometric {
+    font-family: "URW Geometric";
+}
+
+.is-radius-40 {
+    border-radius: 40px;
+}
+.is-radius-20 {
+    border-radius: 20px;
+}
+.is-radius-12 {
+    border-radius: 12px;
+}
+
+.is-border1 {
+    border: 2px solid #e8eff7;
+    border-radius: 0px 0px 20px 20px;
+    border-top: 0;
+}
+.imageBorder {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.banner-btn {
+    background-color: var(--clr-skyBlue);
+    width: 192px;
+    color: var(--clr-dark);
+    border: 2px solid var(--clr-skyBlue) !important;
+
+    &:hover {
+        background-color: transparent;
+        color: var(--clr-blue);
+        border: 2px solid var(--clr-blue) !important;
+        svg {
+            stroke: var(--clr-blue);
+            margin-left: 5px;
+        }
+    }
+
+    svg {
+        stroke: #272830;
+        margin-left: 2px;
+        transition: 0.3s all linear;
+    }
+}
+
+.menuscroll {
+    background-color: #e6fbfa !important;
+    transition: 0.5s all linear;
+}
+
